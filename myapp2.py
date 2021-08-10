@@ -17,10 +17,10 @@ from math import sqrt
     
     
 #import my data
-graph_data = "C:\Users\victo\OneDrive\Documents\Python Scripts\police_hr1.csv"
+graph_data = "C:\\Users\\victo\\OneDrive\\Documents\\Python Scripts\\police_hr1.csv"
 graph_data=pd.read_csv(graph_data)
 
-ml_data = "C:\Users\victo\OneDrive\Documents\Python Scripts\police_hr2.csv"
+ml_data = "C:\\Users\\victo\\OneDrive\\Documents\\Python Scripts\\police_hr2.csv"
 ml_data=pd.read_csv(ml_data)
 
 sns.set(rc={'figure.figsize':(20,10)})
